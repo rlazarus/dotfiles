@@ -34,3 +34,10 @@ nnoremap <silent> <c-l> <c-l>:nohlsearch<cr>
 
 " easymotion: no need to leaderleader
 map <Leader> <Plug>(easymotion-prefix)
+
+" easyalign
+" Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
